@@ -10,13 +10,13 @@ A simple blog website using Next.js, MDX.
 - pagination for blog list
 - code highlighting with rehype-highlight
 
-**live preview: [https://next-mdx-simple-blog.netlify.app/](https://next-mdx-simple-blog.netlify.app/)**<br>
+<!-- **live preview: [https://next-mdx-simple-blog.netlify.app/](https://next-mdx-simple-blog.netlify.app/)**<br>
 **youtube-tutorial: [https://youtu.be/hpSubvgSvxo](https://youtu.be/hpSubvgSvxo)**<br>
 
 ---
 
 Like my works and want to support me? <br>
-you can buy me a coffee 👇
+you can buy me a coffee 👇 -->
 
 <!-- <a href="https://www.buymeacoffee.com/shaifarfan08" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 162.75px !important;" ></a>
 
