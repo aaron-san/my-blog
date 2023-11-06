@@ -4,15 +4,15 @@
   box-sizing: border-box;
 }
 :root {
-  --text-color: #a7aab0;
-  --bg-color: #0f141c;
+  --text-color: #555;
+  --bg-color: whitesmoke;
 }
 
 html,
 body {
   background: var(--bg-color);
-  color: rgb(181, 199, 223);
-  font-size: 10px;
+  color: var(--text-color);
+  font-size: 12px;
   padding: 0;
   margin: 0;
   font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,

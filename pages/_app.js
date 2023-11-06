@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Shaif&lsquo;s Blog</title>
+        <title>Aaron&apos;s Blog</title>
         <meta
           name="description"
           content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis deserunt"

@@ -42,3 +42,31 @@ Happy Coding! ✨🚀
 [wc-fb-group]: https://www.facebook.com/groups/webcifar -->
 
 # GitHub
+
+https://github.com/aaron-san/my-blog
+
+# Netlify
+
+# # install the Netlify CLI globally
+
+```bash
+npm install -g netlify-cli
+```
+
+## log into your Netlify account
+
+```bash
+ntl login
+```
+
+# move into the site's root directory
+
+```bash
+cd ~/path/to/your/my-blog/
+```
+
+# create a new Netlify site
+
+```bash
+ntl init
+```
