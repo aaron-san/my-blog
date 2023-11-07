@@ -9,14 +9,16 @@ function BlogItemCard({ post }) {
   return (
     <div className={classes.item}>
       {post.frontmatter.bannerUrl && (
-        <div className={classes.bannerImg}>
-          <Image
-            src={post.frontmatter.bannerUrl}
-            alt={post.frontmatter.title}
-            objectFit="cover"
-            layout="fill"
-          />
-        </div>
+        <Link href={`/blogs/${post.slug}`}>
+          <div className={classes.bannerImg}>
+            <Image
+              src={post.frontmatter.bannerUrl}
+              alt={post.frontmatter.title}
+              objectFit="cover"
+              layout="fill"
+            />
+          </div>
+        </Link>
       )}
       <Link href={`/blogs/${post.slug}`}>
         <a className={classes.blogTitle}>{post.frontmatter.title}</a>

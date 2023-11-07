@@ -4,14 +4,15 @@
   box-sizing: border-box;
 }
 :root {
-  --text-color: #555;
-  --bg-color: whitesmoke;
+  /* --text-color: #555; */
+  /* --bg-color: whitesmoke; */
 }
 
 html,
 body {
-  background: var(--bg-color);
-  color: var(--text-color);
+  /* background: var(--bg-color); */
+  /* color: var(--text-color); */
+  color: inherit;
   font-size: 12px;
   padding: 0;
   margin: 0;
@@ -43,4 +44,18 @@ code:not(pre) {
   color: #d3d3d5;
   padding: 0.3rem;
   border-radius: 4px;
+}
+
+header {
+  height: 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.theme-button {
+  display: block;
+  margin: 0 auto;
+  padding: 2px 4px;
+  border-radius: 4px;
+  cursor: pointer;
 }
