@@ -5,6 +5,9 @@
   gap: 1rem;
 }
 
+.container::first-letter {
+  font-size: 2rem;
+}
 .blogImage {
   display: inline-block;
   width: 100%;

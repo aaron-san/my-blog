@@ -8,7 +8,7 @@ function Pagination({ totalPages, currentPage }) {
   return (
     <div className={classes.pagination}>
       <p className={classes.pagination_heading}>
-        page {router.query.page || 1} out of {totalPages}
+        Page {router.query.page || 1} of {totalPages}
       </p>
       <div className={classes.paginateLinks_container}>
         {currentPage > 1 && (

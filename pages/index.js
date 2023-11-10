@@ -13,7 +13,7 @@ export default function Home({ posts }) {
   const postPerPage = 3;
   const [currentPage, setCurrentPage] = useState(null);
   const router = useRouter();
-  const [selectedTag, setSelectedTag] = useState('all');
+  const [selectedTag, setSelectedTag] = useState('All');
   const [filteredPosts, setFilteredPosts] = useState(posts);
 
   const allTagsSet = posts.reduce((acc, post) => {
@@ -22,11 +22,11 @@ export default function Home({ posts }) {
   }, new Set([]));
 
   const allTagsArr = [...allTagsSet].sort((a, b) => a.localeCompare(b));
-  allTagsArr.unshift('all');
+  allTagsArr.unshift('All');
 
   useEffect(() => {
     let tempPosts = [...posts];
-    if (selectedTag && selectedTag !== 'all') {
+    if (selectedTag && selectedTag !== 'All') {
       tempPosts = posts.filter((post) =>
         post.frontmatter.tags.includes(selectedTag)
       );
@@ -45,7 +45,7 @@ export default function Home({ posts }) {
   }, [selectedTag, posts, router]);
 
   const totalPages =
-    selectedTag === 'all'
+    selectedTag === 'All'
       ? Math.ceil(posts.length / postPerPage)
       : Math.ceil(filteredPosts.length / postPerPage);
 
