@@ -17,7 +17,13 @@
   border-radius: 50%;
   border: 2px solid white;
   overflow: hidden;
+  cursor: pointer;
 }
+
+.profileImg:active {
+  transform: scale(0.99);
+}
+
 .description {
   max-width: 400px;
   text-align: center;

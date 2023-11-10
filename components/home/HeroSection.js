@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React, { useContext } from 'react';
 import { LuSun } from 'react-icons/lu';
 import Heading from '../typography/Heading';
@@ -12,7 +13,9 @@ function HeroSection() {
   return (
     <div className={classes.heroSection}>
       <div className={classes.profileImg}>
-        <Image src={profileImage} alt="My Blog" height="200" width="200" />
+        <Link href="/">
+          <Image src={profileImage} alt="My Blog" height="200" width="200" />
+        </Link>
       </div>
       <div className="title-name-message">
         <div className="title-button">
