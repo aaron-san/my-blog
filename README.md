@@ -70,3 +70,8 @@ cd ~/path/to/your/my-blog/
 ```bash
 ntl init
 ```
+
+# Deployment
+
+This site is deployed on Netlify.
+Simply pushing to GitHub will initiate a re-deployment of the app.

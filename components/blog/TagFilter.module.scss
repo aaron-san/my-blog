@@ -13,13 +13,30 @@
 .tagButton {
   cursor: pointer;
   border: 2px solid transparent;
+  background: none;
+
   // background: #e9eaec;
   // color: var(--text-color);
-  font-size: 1.8rem;
-  padding: 1rem;
+  font-size: 1.4rem;
+  padding: 0.5rem 0.75rem;
   border: 1px solid var(--bg-color);
   border-radius: 6px;
 }
-.selected {
-  border: 2px solid royalblue;
+
+.buttonDark {
+  color: white;
+  border: 1px solid white;
+}
+
+.buttonLight {
+  color: black;
+  border: 1px solid black;
+}
+
+.selectedDark {
+  background-color: rgb(214, 211, 211);
+  color: black;
+}
+.selectedLight {
+  background-color: rgb(220, 216, 216);
 }

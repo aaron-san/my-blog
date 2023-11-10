@@ -1,21 +1,24 @@
 .heroSection {
-  margin-top: 2rem;
+  // margin-top: 1.2rem;
   max-width: 800px;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  // gap: 12px;
 }
 .name {
-  margin-top: 2rem;
+  // margin-top: 2rem;
+  margin-left: 20px;
 }
 .profileImg {
   width: 200px;
   border-radius: 50%;
+  border: 2px solid white;
   overflow: hidden;
 }
 .description {
-  max-width: 500px;
+  max-width: 400px;
   text-align: center;
 }

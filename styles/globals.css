@@ -13,7 +13,9 @@ body {
   /* background: var(--bg-color); */
   /* color: var(--text-color); */
   color: inherit;
-  font-size: 12px;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  word-spacing: 0.2em;
   padding: 0;
   margin: 0;
   font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
@@ -28,15 +30,9 @@ a:hover {
   text-decoration: underline;
   color: royalblue;
 }
-svg {
-  width: 100%;
-}
+
 * {
   box-sizing: border-box;
-}
-
-pre {
-  font-size: 2rem;
 }
 
 code:not(pre) {
@@ -58,4 +54,96 @@ header {
   padding: 2px 4px;
   border-radius: 4px;
   cursor: pointer;
+  animation: spin 3s ease-in-out;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1440deg);
+  }
+}
+
+.left {
+  float: left;
+  margin: 0 30px 20px 0px;
+}
+.right {
+  float: right;
+  margin: 0 0px 20px 30px;
+}
+
+.small {
+  width: 300px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.medium {
+  width: 200px;
+  margin: 0 30px 20px 0px;
+  height: auto;
+  border-radius: 4px;
+}
+
+a {
+  color: lightblue;
+  text-decoration: underline;
+  /* background-color: beige; */
+  /* padding: 4px 8px; */
+  /* border-radius: 4px; */
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(167, 174, 176, 0.5);
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+}
+
+.wide-text {
+  font-size: x-large;
+  line-height: 1.4em;
+}
+
+.divider {
+  margin: 0.8rem 0;
+  height: 1px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: slategray;
+}
+
+.title-name-message {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.title-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .hr-gradient-dark {
+  background: linear-gradient(to right, transparent, white, transparent);
+} */
+
+/* .hr-gradient-light {
+  background: linear-gradient(
+    to right,
+
+    black,
+    white,
+    black
+  );
+} */
+
+#selectedTag {
+  border: 1px solid blue;
 }
