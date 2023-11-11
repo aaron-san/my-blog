@@ -75,6 +75,13 @@ header {
   margin: 0 0px 20px 30px;
 }
 
+@media (max-width: 480px) {
+  .left,
+  .right {
+    float: none;
+  }
+}
+
 .small {
   width: 300px;
   height: auto;
@@ -108,6 +115,16 @@ img:hover {
 .wide-text {
   font-size: x-large;
   line-height: 1.4em;
+}
+
+@media (max-width: 480px) {
+  .img-container {
+    flex-direction: column;
+  }
+  .wide-text {
+    font-size: large;
+    line-height: 1.4em;
+  }
 }
 
 .divider {

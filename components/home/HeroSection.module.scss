@@ -8,6 +8,13 @@
   justify-content: center;
   // gap: 12px;
 }
+
+@media (max-width: 480px) {
+  .heroSection {
+    flex-direction: column;
+  }
+}
+
 .name {
   // margin-top: 2rem;
   margin-left: 20px;
