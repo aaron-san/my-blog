@@ -14,7 +14,7 @@
 @media (max-width: 480px) {
   .container {
     margin-top: 2rem;
-    padding: 0 0.75rem;
+    padding: 0;
   }
 }
 
@@ -29,6 +29,13 @@
   padding: 0.5rem 0.75rem;
   border: 1px solid var(--bg-color);
   border-radius: 6px;
+}
+
+@media (max-width: 480px) {
+  .tagButton {
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem;
+  }
 }
 
 .buttonDark {

@@ -7,7 +7,7 @@ import 'highlight.js/styles/night-owl.css';
 export const ThemeContext = createContext(null);
 
 function MyApp({ Component, pageProps }) {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light');
 
   // eslint-disable-next-line react/jsx-no-constructed-context-values
   const value = { theme, setTheme };
@@ -26,13 +26,13 @@ function MyApp({ Component, pageProps }) {
           style={
             theme === 'dark'
               ? {
-                  backgroundColor: 'rgb(56,56,56)',
-                  color: 'rgba(247,249,253,1)',
+                  backgroundColor: '#373A36',
+                  color: '#E1E2E2',
                   // color: 'white',
                 }
               : {
-                  backgroundColor: 'rgba(247,249,253,1)',
-                  color: 'rgba(32,32,32,1)',
+                  backgroundColor: '#F7F7F7',
+                  color: '#373A36',
                   // color: 'black',
                 }
           }
