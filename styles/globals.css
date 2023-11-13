@@ -54,7 +54,7 @@ header {
   padding: 2px 4px;
   border-radius: 4px;
   cursor: pointer;
-  animation: spin 3s ease-in-out;
+  animation: spin 2s ease-in-out;
 }
 
 @keyframes spin {
@@ -62,7 +62,7 @@ header {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(1440deg);
+    transform: rotate(1080deg);
   }
 }
 

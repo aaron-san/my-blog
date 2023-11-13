@@ -22,9 +22,15 @@
 .profileImg {
   width: 200px;
   border-radius: 50%;
-  border: 2px solid white;
   overflow: hidden;
   cursor: pointer;
+}
+
+.borderDark {
+  border: 2px solid whitesmoke;
+}
+.borderLight {
+  border: 2px solid rgb(59, 59, 59);
 }
 
 .profileImg:active {
