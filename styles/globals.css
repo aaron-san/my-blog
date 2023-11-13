@@ -80,11 +80,18 @@ header {
 }
 
 a {
-  color: lightblue;
   text-decoration: underline;
   /* background-color: beige; */
   /* padding: 4px 8px; */
   /* border-radius: 4px; */
+}
+
+.linkDark {
+  color: lightblue;
+}
+
+.linkLight {
+  color: green;
 }
 
 img:hover {
@@ -100,6 +107,7 @@ img:hover {
 
 .img-right-container {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
   gap: 1.2rem;
@@ -107,17 +115,14 @@ img:hover {
 
 .img-left-container > div,
 .img-right-container > div {
-  font-size: x-large;
+  font-size: xx-large;
   line-height: 1.4em;
 }
 
 @media (max-width: 480px) {
-  .img-left-container {
-    flex-direction: column;
-  }
-
+  .img-left-container,
   .img-right-container {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .img-left-container > div,

@@ -7,7 +7,7 @@ import Heading from '../typography/Heading';
 import Text from '../typography/Text';
 import classes from './HeroSection.module.scss';
 import { ThemeContext } from '../../pages/_app';
-import profileImage from '../../images/noah.jpg';
+import profileImage from '../../images/son.jpg';
 
 function HeroSection() {
   const { theme, setTheme } = useContext(ThemeContext);

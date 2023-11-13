@@ -1,3 +1,8 @@
+.homeThemeContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
 .blogContainer {
   max-width: 800px;
   margin: 0 auto;
@@ -17,15 +22,33 @@
 .scrollToTop {
   cursor: pointer;
   margin-top: 5rem;
-  background-color: royalblue;
-  border: none;
-  font-size: 1.4rem;
-  color: white;
+  font-size: 1.2rem;
   border-radius: 6px;
   padding: 0.5rem 1rem;
+  // background-color: transparent;
   & svg {
     margin-left: 0.5rem;
     width: 1em;
     margin-bottom: -3px;
   }
+}
+
+.btnDark {
+  border: 1px solid white;
+  color: white;
+}
+
+.btnDark:hover {
+  background-color: lightblue;
+  transition: all 1s;
+}
+
+.btnLight {
+  border: 1px solid black;
+  color: black;
+}
+
+.btnLight:hover {
+  background-color: lightgray;
+  transition: background-color 0.2s;
 }
