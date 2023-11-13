@@ -5,6 +5,13 @@
   margin-bottom: 1rem;
   font-family: Oswald;
 }
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+}
+
 .h2Heading {
   font-size: 2.5rem;
 }
