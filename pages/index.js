@@ -10,7 +10,7 @@ import BlogList from '../components/blog/BlogList';
 import Pagination from '../components/Pagination';
 
 export default function Home({ posts }) {
-  const postPerPage = 3;
+  const postPerPage = 4;
   const [currentPage, setCurrentPage] = useState(null);
   const router = useRouter();
   const [selectedTag, setSelectedTag] = useState('All');
